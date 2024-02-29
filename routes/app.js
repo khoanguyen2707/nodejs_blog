@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const dataSource = require('../config/db.js');
+const dataSource = require('../config/database.js');
 const Task = require('../models/postEntity.js')
 const postRepository = dataSource.getRepository(Task);
 
