@@ -1,5 +1,5 @@
 const { DataSource } = require('typeorm');
-const Task = require('../entities/postEntity');
+const Task = require('../models/postEntity');
 
 const dataSource = new DataSource ({
   type: 'mysql',

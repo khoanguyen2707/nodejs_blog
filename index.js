@@ -1,5 +1,5 @@
 const express = require('express')
-const app = require('./app')
+const app = require('./routes/app')
 const port = process.env.port || 3000
 
 app.get('/', (req,res) => {
