@@ -6,7 +6,7 @@ const taskSchema = new EntitySchema({
 
   columns: {
     id: { primary: true, type: 'text', generated: 'uuid' },
-    
+
     title: { type: 'varchar' },
 
     body: { type: 'text' },

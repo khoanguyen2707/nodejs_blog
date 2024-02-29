@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/khoanguyen27 07/nodejs_blog.git"
+    "url": "git+https://github.com/khoanguyen2707/Project2.git"
   },
   "keywords": [
     "khoa",
@@ -17,14 +17,20 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/khoanguyen2707/nodejs_blog/issues"
+    "url": "https://github.com/khoanguyen2707/Project2/issues"
   },
-  "homepage": "https://github.com/khoanguyen2707/nodejs_blog#readme",
+  "homepage": "https://github.com/khoanguyen2707/Project2#readme",
   "dependencies": {
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.6",
     "express": "^4.18.2",
     "mysql2": "^3.9.2",
     "pg": "^8.11.3",
-    "typeorm": "^0.3.20"
+    "swagger": "^0.7.5",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "typeorm": "^0.3.20",
+    "yaml": "^2.4.0"
   },
   "devDependencies": {
     "morgan": "^1.10.0",
